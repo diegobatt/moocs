@@ -6,4 +6,5 @@ Repository for Stanford lagunita's exercises
 
 - cutsing Inversions with MergeSort
 - Sorting array with QuickSort
-- Graph minimum cuts counting with Karger alghoritm
+- Graph's minimum cuts count with Karger alghoritm
+- Graph's Strongly Connected Components (SCCs) with Depth First Search (DFS)
