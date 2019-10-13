@@ -1,48 +1,56 @@
-import progressbar
-import resource
 import sys
 
-resource.setrlimit(resource.RLIMIT_STACK, (resource.RLIM_INFINITY, resource.RLIM_INFINITY))
-sys.setrecursionlimit(2 ** 17)
+import progressbar
+
 VFROM, VTO, VEXPLORED = 0, 1, 2
 
-def dfs(graph, order=[], current=[], vertex=0, backwards=True):
+def dfs_recursive(graph, order=[], vertex=0, backwards=True):
 
     vertices = VFROM if backwards else VTO
+    if graph[vertex][VEXPLORED] == True:
+        return set()
     graph[vertex][VEXPLORED] = True
     conns = {vertex}
 
     for new_vertex in graph[vertex][vertices]:
         if graph[new_vertex][VEXPLORED] == False:
-            new_conns = dfs(graph, order, current, new_vertex, backwards)
+            new_conns = dfs_recursive(graph, order, new_vertex, backwards)
             conns.update(new_conns)
 
-    if current:
-        order.append(vertex)
-        current[0] -= 1
+    order.append(vertex)
     
     return conns
 
-def dfs_stack(graph, order=[], vertex=0, backwards=True):
+def dfs_stack(graph, order=[], vertex=1, backwards=True):
 
-    label = len(graph)
     vertices = VFROM if backwards else VTO
     stack = [vertex]
+    is_final = [False]
     conns = set()
 
-    import ipdb; ipdb.set_trace()
     while stack:
-        v = stack.pop()
-        if graph[v][VEXPLORED] == False:
-            graph[v][VEXPLORED] = True
-            conns.add(v)
-            new_vs = graph[v][vertices]
-            if new_vs:
-                stack.extend(graph[v][vertices])
-            else:
-                order.append(v)
-                label -= 1
     
+        if is_final[-1]:
+            v = stack.pop()
+            is_final.pop()
+            order.append(v)
+            continue
+
+        v = stack[-1]
+        if graph[v][VEXPLORED]:
+            stack.pop()
+            is_final.pop()
+            continue
+
+        is_final[-1] = True
+        graph[v][VEXPLORED] = True
+        conns.add(v)
+
+        for new_v in graph[v][vertices]:
+            if not graph[new_v][VEXPLORED]:
+                stack.append(new_v)
+                is_final.append(False)
+              
     return conns
 
 def set_unexplored(graph):
@@ -51,24 +59,26 @@ def set_unexplored(graph):
 
 def get_topological_order(graph, backwards=True):
     set_unexplored(graph)
-    current = [len(graph) - 1]
     order = []
 
-    for k, v in graph.items():
+    for k, v in progressbar.progressbar(graph.items()):
         if v[VEXPLORED] == False:
-            # dfs(graph, order, current, k, backwards) # Pointer to current
-            dfs_stack(graph, order, k, backwards) # Pointer to current
+            # dfs_recursive(graph, order, k, backwards)
+            dfs_stack(graph, order, k, backwards)
 
     return order
 
 def get_scc(graph):
     sccs = []
+    print("Fist DFS loop")
     order = get_topological_order(graph, backwards=True)
     set_unexplored(graph)
 
-    for i in progressbar.ProgressBar(order[::-1]):
+    print("Second DFS loop")
+    for i in progressbar.progressbar(order[::-1]):
         if graph[i][VEXPLORED] == False:
-            sccs.append(dfs(graph, [], [], i, False)) # Pointer to current
+            # sccs.append(dfs_recursive(graph, [], i, False))
+            sccs.append(dfs_stack(graph, [], i, False))
     
     return sccs
 
@@ -105,8 +115,8 @@ if __name__ == '__main__':
             9: [{8}, {7}, False]
         }
 
-    import ipdb; ipdb.set_trace()
-    print(get_topological_order(graph, backwards=False))
-    # print(get_topological_order(graph, backwards=True))
-    import ipdb; ipdb.set_trace()
-    # print(get_scc(graph))
+    sccs = get_scc(graph)
+    size_sccs = [len(scc) for scc in sccs]
+    size_sccs.sort()
+    print(size_sccs[-5:])
+
