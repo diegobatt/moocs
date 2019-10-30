@@ -66,8 +66,8 @@ bool ratio_cmp(Job left, Job right) {
     };
 };
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
+
     vector<Job> jobs;
     size_t i = 0, cum_length = 0, total=0;
     string cmp_argument;
@@ -97,4 +97,4 @@ int main(int argc, char** argv)
     cout << total << "\n";
 
     return 0;
-}
+};
