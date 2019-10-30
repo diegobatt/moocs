@@ -66,10 +66,11 @@ int mst(Graph graph) {
     for(i=0; i<aux_node.edges.size(); i++){
         heap.push_back(aux_node.edges[i]);
         push_heap(heap.begin(), heap.end());
-
     };
 
-    make_heap(v1.begin(), v1.end());
+    while(!heap.empty()) {
+        
+    };
 };
 
 int main(int argc, char** argv) {
