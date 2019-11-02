@@ -1,2 +1,4 @@
 */storage/
 */bin/
+*/.vscode
+*/*.txt

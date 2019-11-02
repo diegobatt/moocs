@@ -13,3 +13,6 @@ Repository for Stanford lagunita's exercises
 - Online median calculation with Heaps
 
 ## Algorithms: Design and Analysis 2
+
+- Task scheduling greedy algorithm
+- Prim's Minimum Spanning Tree (MST) algorithm
