@@ -10,7 +10,7 @@ struct Edge {
     int to;
     int weight;
 };
-bool edgecmp(Edge left, Edge right) { return left.weight < right.weight; }
+bool edgecmp(Edge left, Edge right) { return left.weight > right.weight; };
 
 struct Node {
     size_t id;
@@ -58,25 +58,41 @@ Graph read_file(const char * filename) {
 
 int mst(Graph graph) {
 
-    size_t i;
+    size_t i, count = 1;
+    int total = 0;
     Node aux_node = graph.nodes[0];
+    Edge aux_edge;
     vector<Edge> heap;
-    bool explored[graph.n];
+    bool explored[graph.n] = {false};
     
     for(i=0; i<aux_node.edges.size(); i++){
         heap.push_back(aux_node.edges[i]);
-        push_heap(heap.begin(), heap.end());
+        push_heap(heap.begin(), heap.end(), edgecmp);
     };
+    explored[0] = true;
 
     while(!heap.empty()) {
-        
+        aux_edge = heap.front();
+        pop_heap(heap.begin(), heap.end(), edgecmp); 
+        heap.pop_back(); 
+        if (explored[aux_edge.to] == false) {
+            explored[aux_edge.to] = true;
+            total += aux_edge.weight;
+            aux_node = graph.nodes[aux_edge.to];
+            for(i=0; i<aux_node.edges.size(); i++){
+                heap.push_back(aux_node.edges[i]);
+                push_heap(heap.begin(), heap.end(), edgecmp);
+            };
+        };
     };
+    return total;
 };
 
 int main(int argc, char** argv) {
 
     Graph graph;
     size_t i, j;
+    int total;
 
     if(argc!=2) {
         cout << "Please indicate a graph file" << endl;
@@ -85,12 +101,8 @@ int main(int argc, char** argv) {
 
     graph = read_file(argv[1]);
 
-    for(i=0; i<graph.n; i++){
-        for(j=0; j<graph.nodes[i].edges.size(); j++){
-            cout << graph.nodes[i].edges[j].to << ", ";
-        };
-        cout << "\n";
-    };
+    total = mst(graph);
+    cout << "Minimum cost: " << total << endl;
 
     return 0;
 };
