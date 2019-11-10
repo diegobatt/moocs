@@ -85,11 +85,6 @@ int main(int argc, char** argv) {
 
     graph = read_file(argv[1]);
 
-    // for (size_t i = 0; i < graph.values.size(); i++) {
-    //     cout << graph.values[i] << endl;
-    // }
-    // cout << hamming(graph.values[0], graph.values[1]) << endl;
-    // cout << hamming(graph.values[3], graph.values[0]) << endl;
     cout << "Clusters to achieve max_distance of 3: " << clusters_at_distance(graph, 3) << endl;
 
     return 0;
