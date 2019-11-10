@@ -16,3 +16,5 @@ Repository for Stanford lagunita's exercises
 
 - Task scheduling greedy algorithm
 - Prim's Minimum Spanning Tree (MST) algorithm
+- Union-Find (Disjoint sets) data structure with lazy-unions, union-by-rank and path-compression
+- Clustering via Kruskal's MST algorithm
