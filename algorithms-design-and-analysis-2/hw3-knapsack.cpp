@@ -37,22 +37,21 @@ vector<Element> read_file(const char * filename, int * W, int * N) {
 
 int optimal_knapsack(vector<Element> elements, int W, int N) {
 
-    vector<vector<int>> A(N);
+    vector<int> prev(W+1, 0), curr(W+1, 0);
 
     for (size_t i = 0; i < N; i++) {
         for (size_t j = 0; j < W + 1; j++) {
-            if (i == 0) {
-                A[i].push_back(0);
-            } else if (j < elements[i].weight) {
-                A[i].push_back(A[i-1][j]);
+            if (j < elements[i].weight) {
+                curr[j] = prev[j];
             } else {
-                A[i].push_back(max(
-                    A[i-1][j],
-                    A[i-1][j-elements[i].weight] + elements[i].value));
+                curr[j] = max(
+                    prev[j],
+                    prev[j-elements[i].weight] + elements[i].value);
             }
         }
+        prev = curr;
     }
-    return A[N-1][W];
+    return prev[W];
 }
 
 int main(int argc, char** argv) {
