@@ -18,3 +18,5 @@ Repository for Stanford lagunita's exercises
 - Prim's Minimum Spanning Tree (MST) algorithm
 - Union-Find (Disjoint sets) data structure with lazy-unions, union-by-rank and path-compression
 - Clustering via Kruskal's MST algorithm
+- Knapsack problem with Dynamic programming
+- All shortest paths problem with Floyd-Warshall algorithm
