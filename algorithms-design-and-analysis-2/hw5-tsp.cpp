@@ -45,15 +45,23 @@ Graph read_file(const char * filename) {
     fin.close();
 
     return g;
-
+for
 }
 
 float min_tsp(Graph g) {
 
-    vector<float> aux_init(pow(2, g.n), pinf);
+    size_t cardinality = pow(2, g.n);
+    vector<float> aux_init(cardinality, pinf);
     vector<vector<float> > A(g.n, aux_init);
     A[0][0] = 0;
 
+    for (size_t n = 1; n < g.n; n++) {
+        for (size_t c = 0; c < pow(2, n); c++) {
+            for (size_t i = 0; i < ; i++) {
+
+            }
+        }
+    }
     
 
     return 1.1
