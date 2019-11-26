@@ -55,9 +55,10 @@ vector<set<set<size_t> > > get_powerset(size_t n, bool include_zero=true) {
     size_t cardinality = pow(2, n);
     vector<set<set<size_t> > > subsets(n);
     set<size_t> aux_set;
+    short start = (short) include_zero;
 
     for(size_t i = 0; i < cardinality; i++) { 
-        for(size_t j = 0; j < n; j++) { 
+        for(size_t j = start; j < n; j++) { 
             if(i & (1 << j)) aux_set.insert(j);
         } 
         if (include_zero) aux_set.insert(0);
@@ -82,24 +83,30 @@ void print_powerset(vector<set<set<size_t> > > powerset) {
     }
 }
 
-// float min_tsp(Graph g) {
+float min_tsp(Graph g) {
 
-//     size_t cardinality = pow(2, g.n - 1); // Cardinality of al sets that include 0
-//     vector<float> aux_init(cardinality, pinf);
-//     vector<vector<float> > A(g.n, aux_init);
-//     A[0][0] = 0;
+    size_t cardinality = pow(2, g.n - 1); // Cardinality of al sets that include 0
+    vector<set<set<size_t> > > powerset;
+    vector<float> aux_init(cardinality, pinf);
+    vector<vector<float> > A(g.n, aux_init);
 
-//     for (size_t n = 1; n < g.n; n++) {
-//         for (size_t c = 0; c < pow(2, n); c++) {
-//             for (size_t i = 0; i < ; i++) {
+    A[0][0] = 0;
+    powerset = get_powerset(g.n);
 
-//             }
-//         }
-//     }
+    for (size_t i = 1; i < g.n; i++) {
+        for (auto it = powerset[i].begin(); it != powerset[i].end(); it++) {
+            for (auto jt = it->begin(); jt != it->end(); jt++) {
+                
+            }
+            for (auto jt = it->begin(); jt != it->end(); jt++) {
+
+            }
+        }
+    }
     
 
-//     return 1.1
-// }
+    return 1.1
+}
 
 int main(int argc, char** argv) {
 
