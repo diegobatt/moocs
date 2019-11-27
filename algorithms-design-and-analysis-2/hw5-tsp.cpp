@@ -108,7 +108,7 @@ float min_tsp(Graph g) {
                     if (*kt != *jt)
                         aux_min.push_back(A[sub_seq, *kt] + g.edges[*kt][*kt]);
                 }
-                A[seq, *jt] = (min_element(aux_min.begin(), aux_min.end()));
+                A[seq, *jt] = *(min_element(aux_min.begin(), aux_min.end()));
             }
         }
     }
