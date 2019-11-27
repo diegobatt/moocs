@@ -1,9 +1,9 @@
+#include <algorithm>
 #include <fstream>
 #include <iostream>
 #include <limits>
 #include <vector>
 #include <cmath>
-#include <map>
 #include <set>
 
 using namespace std;
@@ -12,7 +12,7 @@ const float pinf = numeric_limits<float>::max();
 
 struct Graph {
     size_t n;
-    vector<vector<float> > A;
+    vector<vector<float> > edges;
 };
 
 Graph read_file(const char * filename) {
@@ -42,7 +42,7 @@ Graph read_file(const char * filename) {
         for (size_t j = 0; j < g.n; j++) {
             ds[j] = sqrt(pow(xs[i] - xs[j], 2) + pow(ys[i] - ys[j], 2));
         }
-        g.A.push_back(ds);
+        g.edges.push_back(ds);
     }
     
     fin.close();
@@ -89,17 +89,26 @@ float min_tsp(Graph g) {
     vector<set<set<size_t> > > powerset;
     vector<float> aux_init(cardinality, pinf);
     vector<vector<float> > A(g.n, aux_init);
+    size_t seq, sub_seq; 
+    vector<float> aux_min;
 
     A[0][0] = 0;
     powerset = get_powerset(g.n);
 
     for (size_t i = 1; i < g.n; i++) {
         for (auto it = powerset[i].begin(); it != powerset[i].end(); it++) {
+            seq = 0;
             for (auto jt = it->begin(); jt != it->end(); jt++) {
-                
+                seq += pow(2, *jt);
             }
             for (auto jt = it->begin(); jt != it->end(); jt++) {
-
+                sub_seq = seq - pow(2, *jt);
+                aux_min.clear();
+                for (auto kt = it->begin(); kt != it->end(); kt++) {
+                    if (*kt != *jt)
+                        aux_min.push_back(A[sub_seq, *kt] + g.edges[*kt][*kt]);
+                }
+                A[seq, *jt] = (min_element(aux_min.begin(), aux_min.end()));
             }
         }
     }
