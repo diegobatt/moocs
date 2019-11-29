@@ -90,7 +90,7 @@ float min_tsp(Graph g) {
     vector<float> aux_init(cardinality, pinf);
     vector<vector<float> > A(g.n, aux_init);
     size_t seq, sub_seq; 
-    vector<float> aux_min;
+    float aux_min;
 
     A[0][0] = 0;
     powerset = get_powerset(g.n);
@@ -102,19 +102,33 @@ float min_tsp(Graph g) {
                 seq += pow(2, *jt);
             }
             for (auto jt = it->begin(); jt != it->end(); jt++) {
+                if (*jt == 0) continue;
+
                 sub_seq = seq - pow(2, *jt);
-                aux_min.clear();
+
+                if (it->size() == 2) {
+                    A[seq][*jt] = g.edges[0][*jt];
+                    continue;
+                }
+
+                aux_min = pinf;
                 for (auto kt = it->begin(); kt != it->end(); kt++) {
                     if (*kt != *jt)
-                        aux_min.push_back(A[sub_seq, *kt] + g.edges[*kt][*kt]);
+                        aux_min = min(
+                            aux_min,
+                            A[sub_seq][*kt] + g.edges[*kt][*jt]);
                 }
-                A[seq, *jt] = *(min_element(aux_min.begin(), aux_min.end()));
+
+                A[seq][*jt] = aux_min;
             }
         }
     }
-    
-
-    return 1.1
+    aux_min = pinf;
+    for (size_t i = 1; i < g.n; i++) {
+        aux_min = min(aux_min, A[cardinality-1][i]);
+    }
+      
+    return aux_min;
 }
 
 int main(int argc, char** argv) {
@@ -129,9 +143,10 @@ int main(int argc, char** argv) {
     };
 
     g = read_file(argv[1]);
-    // min_cost = min_tsp(g);
     powerset = get_powerset(g.n);
     print_powerset(powerset);
+    min_cost = min_tsp(g);
+    cout << min_cost << endl;
 
     return 0;
 }
