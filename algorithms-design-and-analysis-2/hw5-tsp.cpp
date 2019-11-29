@@ -101,34 +101,37 @@ float min_tsp(Graph g) {
             for (auto jt = it->begin(); jt != it->end(); jt++) {
                 seq += pow(2, *jt);
             }
+            cout << seq << endl; 
             for (auto jt = it->begin(); jt != it->end(); jt++) {
                 if (*jt == 0) continue;
 
                 sub_seq = seq - pow(2, *jt);
 
                 if (it->size() == 2) {
-                    A[seq][*jt] = g.edges[0][*jt];
+                    A[*jt][seq] = g.edges[0][*jt];
                     continue;
                 }
 
                 aux_min = pinf;
                 for (auto kt = it->begin(); kt != it->end(); kt++) {
+                    if (*kt == 0) continue;
                     if (*kt != *jt)
                         aux_min = min(
                             aux_min,
-                            A[sub_seq][*kt] + g.edges[*kt][*jt]);
+                            A[*kt][sub_seq] + g.edges[*kt][*jt]);
                 }
 
-                A[seq][*jt] = aux_min;
+                A[*jt][seq] = aux_min;
             }
         }
     }
+    cout << "termino todo"<< endl;
     aux_min = pinf;
     for (size_t i = 1; i < g.n; i++) {
-        aux_min = min(aux_min, A[cardinality-1][i]);
+        aux_min = min(aux_min, A[i][cardinality-1]);
     }
-      
-    return aux_min;
+    cout << "termino todo 2"<< endl;
+    return 1.1;
 }
 
 int main(int argc, char** argv) {
@@ -146,6 +149,7 @@ int main(int argc, char** argv) {
     powerset = get_powerset(g.n);
     print_powerset(powerset);
     min_cost = min_tsp(g);
+    cout << "return" << endl;
     cout << min_cost << endl;
 
     return 0;
