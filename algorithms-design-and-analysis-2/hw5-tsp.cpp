@@ -6,9 +6,10 @@
 #include <cmath>
 #include <set>
 
+
 using namespace std;
 
-const float pinf = numeric_limits<float>::max();
+const float pinf = numeric_limits<float>::infinity();
 
 struct Graph {
     size_t n;
@@ -50,63 +51,57 @@ Graph read_file(const char * filename) {
     return g;
 }
 
-vector<set<set<size_t> > > get_powerset(size_t n, bool include_zero=true) {
+void _get_perms(
+    vector<vector<size_t> >& ans,
+    vector<size_t>& tmp,
+    size_t n,
+    size_t left,
+    size_t k) {
 
-    set<size_t> aux_set;
-    short start = (short) include_zero;
-    vector<set<set<size_t> > > subsets(n - start);
-    size_t cardinality = pow(2, n - start);
-
-    for(size_t i = 0; i < cardinality; i++) {
-
-        if ( i % 100000 == 0)
-            cout << i << " Iterations of " << cardinality << endl; 
-
-        for(size_t j = 0; j < n - start ; j++) { 
-            if(i & (1 << j)) aux_set.insert(j + start);
-        }
-        if (aux_set.size())
-            subsets[aux_set.size() - start].insert(aux_set);
-        aux_set.clear();
+    if (k == 0) { 
+        ans.push_back(tmp); 
+        return;
     }
-    return subsets;
+
+    for (size_t i = left; i <= n; ++i) { 
+        tmp.push_back(i); 
+        _get_perms(ans, tmp, n, i + 1, k - 1); 
+        tmp.pop_back(); 
+    } 
+} 
+
+vector<vector<size_t> > get_perms(size_t n, size_t k) { 
+    vector<vector<size_t> > ans; 
+    vector<size_t> tmp;
+    _get_perms(ans, tmp, n, 1, k); 
+    return ans; 
 }
 
-void print_powerset(vector<set<set<size_t> > > powerset, bool include_zero=true) {
-
-    short start = (short) include_zero;
-
-    for (size_t i = 0; i < powerset.size(); i++) {
-        cout << " Sets with cardinality " << i + start << ": ";
-        for (auto it = powerset[i].begin(); it != powerset[i].end(); ++it) {
-            cout << "{";
-            for (auto jt = it->begin(); jt != it->end(); ++jt) {
-                cout << *jt << ", ";
-            }
-            cout << "}, ";
-        }
-        cout << endl;
-    }
+void print_perms(const vector<vector<size_t> > &perms) {
+    for (size_t i = 0; i < perms.size(); i++) { 
+        for (size_t j = 0; j < perms[i].size(); j++) { 
+            cout << perms.at(i).at(j) << " "; 
+        } 
+        cout << endl; 
+    } 
 }
 
 float min_tsp(Graph g) {
 
     size_t cardinality = pow(2, g.n - 1); // Cardinality of al sets that include 0
-    vector<set<set<size_t> > > powerset;
+    vector<vector<size_t> > perms;
     vector<float> aux_init(cardinality, pinf);
     vector<vector<float> > A(g.n, aux_init);
     size_t seq, sub_seq; 
     float aux_min;
 
     A[0][0] = 0;
-    powerset = get_powerset(g.n);
 
-    for (size_t i = 0; i < powerset.size(); i++) {
+    for (size_t i = 1; i < g.n; i++) {
+        cout << i << " Iterations of " << g.n - 1 << endl;
+        perms = get_perms(g.n - 1, i);
 
-        if ( i % 100000 == 0)
-            cout << i << " Iterations of " << cardinality << endl; 
-
-        for (auto it = powerset[i].begin(); it != powerset[i].end(); it++) {
+        for (auto it = perms.begin(); it != perms.end(); it++) {
 
             seq = 0;
             for (auto jt = it->begin(); jt != it->end(); jt++) {
@@ -126,9 +121,11 @@ float min_tsp(Graph g) {
                 for (auto kt = it->begin(); kt != it->end(); kt++) {
 
                     if (*kt != *jt)
-                        aux_min = min(
-                            aux_min,
-                            A[*kt][sub_seq] + g.edges[*kt][*jt]);
+                        if (A[*kt][sub_seq] < pinf) {
+                            aux_min = min(
+                                aux_min,
+                                A[*kt][sub_seq] + g.edges[*kt][*jt]);
+                        }
                 }
 
                 A[*jt][seq] = aux_min;
@@ -144,11 +141,12 @@ float min_tsp(Graph g) {
     return aux_min;
 }
 
+
 int main(int argc, char** argv) {
 
     Graph g;
     float min_cost;
-    vector<set<set<size_t> > > powerset;
+    vector<vector<size_t> > perms;
 
     if(argc!=2) {
         cout << "Please indicate a graph file" << endl;
@@ -156,10 +154,6 @@ int main(int argc, char** argv) {
     };
 
     g = read_file(argv[1]);
-    // cout << "Getting powerset..." << endl;
-    // powerset = get_powerset(g.n);
-    // print_powerset(powerset);
-    cout << "Powerset calculated..." << endl;
     min_cost = min_tsp(g);
     cout << min_cost << endl;
 
