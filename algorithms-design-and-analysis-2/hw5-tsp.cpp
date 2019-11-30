@@ -52,26 +52,32 @@ Graph read_file(const char * filename) {
 
 vector<set<set<size_t> > > get_powerset(size_t n, bool include_zero=true) {
 
-    size_t cardinality = pow(2, n);
-    vector<set<set<size_t> > > subsets(n);
     set<size_t> aux_set;
     short start = (short) include_zero;
+    vector<set<set<size_t> > > subsets(n - start);
+    size_t cardinality = pow(2, n - start);
 
-    for(size_t i = 0; i < cardinality; i++) { 
-        for(size_t j = start; j < n; j++) { 
-            if(i & (1 << j)) aux_set.insert(j);
-        } 
-        if (include_zero) aux_set.insert(0);
-        subsets[aux_set.size()-1].insert(aux_set);
+    for(size_t i = 0; i < cardinality; i++) {
+
+        if ( i % 100000 == 0)
+            cout << i << " Iterations of " << cardinality << endl; 
+
+        for(size_t j = 0; j < n - start ; j++) { 
+            if(i & (1 << j)) aux_set.insert(j + start);
+        }
+        if (aux_set.size())
+            subsets[aux_set.size() - start].insert(aux_set);
         aux_set.clear();
     }
     return subsets;
 }
 
-void print_powerset(vector<set<set<size_t> > > powerset) {
+void print_powerset(vector<set<set<size_t> > > powerset, bool include_zero=true) {
+
+    short start = (short) include_zero;
 
     for (size_t i = 0; i < powerset.size(); i++) {
-        cout << " Sets with cardinality " << i << ": ";
+        cout << " Sets with cardinality " << i + start << ": ";
         for (auto it = powerset[i].begin(); it != powerset[i].end(); ++it) {
             cout << "{";
             for (auto jt = it->begin(); jt != it->end(); ++jt) {
@@ -95,26 +101,30 @@ float min_tsp(Graph g) {
     A[0][0] = 0;
     powerset = get_powerset(g.n);
 
-    for (size_t i = 1; i < g.n; i++) {
+    for (size_t i = 0; i < powerset.size(); i++) {
+
+        if ( i % 100000 == 0)
+            cout << i << " Iterations of " << cardinality << endl; 
+
         for (auto it = powerset[i].begin(); it != powerset[i].end(); it++) {
+
             seq = 0;
             for (auto jt = it->begin(); jt != it->end(); jt++) {
-                seq += pow(2, *jt);
+                seq += pow(2, *jt - 1);
             }
-            cout << seq << endl; 
+
             for (auto jt = it->begin(); jt != it->end(); jt++) {
-                if (*jt == 0) continue;
 
-                sub_seq = seq - pow(2, *jt);
+                sub_seq = seq - pow(2, *jt - 1);
 
-                if (it->size() == 2) {
+                if (it->size() == 1) {
                     A[*jt][seq] = g.edges[0][*jt];
                     continue;
                 }
 
                 aux_min = pinf;
                 for (auto kt = it->begin(); kt != it->end(); kt++) {
-                    if (*kt == 0) continue;
+
                     if (*kt != *jt)
                         aux_min = min(
                             aux_min,
@@ -125,13 +135,13 @@ float min_tsp(Graph g) {
             }
         }
     }
-    cout << "termino todo"<< endl;
+
     aux_min = pinf;
     for (size_t i = 1; i < g.n; i++) {
-        aux_min = min(aux_min, A[i][cardinality-1]);
+        aux_min = min(aux_min, A[i][cardinality-1] + g.edges[i][0]);
     }
-    cout << "termino todo 2"<< endl;
-    return 1.1;
+
+    return aux_min;
 }
 
 int main(int argc, char** argv) {
@@ -146,10 +156,11 @@ int main(int argc, char** argv) {
     };
 
     g = read_file(argv[1]);
+    cout << "Getting powerset..." << endl;
     powerset = get_powerset(g.n);
-    print_powerset(powerset);
+    // print_powerset(powerset);
+    cout << "Powerset calculated..." << endl;
     min_cost = min_tsp(g);
-    cout << "return" << endl;
     cout << min_cost << endl;
 
     return 0;
