@@ -156,8 +156,8 @@ int main(int argc, char** argv) {
     };
 
     g = read_file(argv[1]);
-    cout << "Getting powerset..." << endl;
-    powerset = get_powerset(g.n);
+    // cout << "Getting powerset..." << endl;
+    // powerset = get_powerset(g.n);
     // print_powerset(powerset);
     cout << "Powerset calculated..." << endl;
     min_cost = min_tsp(g);
