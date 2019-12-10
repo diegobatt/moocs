@@ -84,12 +84,13 @@ Graph clauses2graph(const vector<Clause> &clauses, size_t N) {
 }
 
 void dfs(
-    Graph g,
-    vector<size_t> &order,
+    Graph &g,
     vector<bool> &explored,
+    stack<size_t> &order,
     size_t vertex=0,
     bool forward=true)
 {
+
     vector<size_t> *edges;
 
     if (explored[vertex])
@@ -98,22 +99,82 @@ void dfs(
 
     edges = forward ? &g.nodes[vertex].to : &g.nodes[vertex].from;
 
-    for (auto i = edges->begin(); i < edges->end(); i++) {
-        
+    for (auto it = edges->begin(); it < edges->end(); it++) {
+        dfs(g, explored, order, *it, forward);
     }
-     
 
+    order.push(vertex);
 
-        
+}
 
+vector<size_t> get_topological_order(Graph g, bool forward=false) {
+    vector<bool> explored(g.n, false);
+    stack<size_t> order;
+    vector<size_t> result;
 
+    for (size_t i = 0; i < g.n; i++) {
+        if (!explored[i])
+            dfs(g, explored, order, i, forward);
+    }
+
+    while (!order.empty()) {
+        result.push_back(order.top());
+        order.pop();
+    }    
+    
+    return result;
+}
+
+vector<size_t> get_scc(Graph g) {
+    vector<bool> explored(g.n, false);
+    vector<size_t> order, sccs(g.n);
+    stack<size_t> conns;
+    size_t scc=0;
+
+    cout << "Getting inverse topological order..." << endl;
+    order = get_topological_order(g, false);
+
+    cout << "Getting SCCs..." << endl;
+
+    for (auto it = order.begin(); it < order.end(); it++) {
+
+        if (!explored[*it])
+            dfs(g, explored, conns, *it, true);
+
+        if (!conns.empty()) {
+            while (!conns.empty()) {
+                sccs[conns.top()] = scc;
+                conns.pop();
+            }
+            scc++;
+        }
+    }
+
+    return sccs;
+}
+
+bool check_2sat(vector<Clause> clauses, size_t N) {
+    Graph g;
+    vector<size_t> scc; 
+
+    g = clauses2graph(clauses, N);
+    scc = get_scc(g);
+
+    for (size_t i = 0; i < N; i++) {
+        if (scc[i] == scc[i+N])
+            return false;
+    }
+
+    return true;
+    
 }
 
 int main(int argc, char** argv) {
 
     vector<Clause> clauses;
-    Graph g;
+    // Graph g;
     size_t N;
+    vector<size_t> order;
 
     if(argc!=2) {
         cout << "Please indicate a graph file" << endl;
@@ -121,15 +182,22 @@ int main(int argc, char** argv) {
     };
 
     clauses = read_file(argv[1], N);
-    g = clauses2graph(clauses, N);
-
-    for (size_t i = 0; i < g.n; i++) {
-        cout << "Node " << i << " has edges to: [";
-        for (auto j = g.nodes[i].to.begin(); j < g.nodes[i].to.end(); j++) {
-            cout << *j << ", ";
-        }
-    cout << "\b\b]" << endl;
-    }
+    // g = clauses2graph(clauses, N);
+    cout << "It is: " << endl << check_2sat(clauses, N) << "!!!!" << endl;
+    // for (size_t i = 0; i < g.n; i++) {
+    //     cout << "Node " << i << " has edges to: [";
+    //     for (auto j = g.nodes[i].to.begin(); j < g.nodes[i].to.end(); j++) {
+    //         cout << *j << ", ";
+    //     }
+    // cout << "\b\b]" << endl;
+    // }
     
+    // order = get_scc(g);
+    // for (size_t i = 0; i < g.n; i++) {
+    //     cout << order[i] << ", ";
+    // }
+    // cout << "\b" << endl;
+
+
     return 0;
 }
