@@ -92,9 +92,15 @@ void dfs(
 {
 
     vector<size_t> *edges;
+    cout << vertex << endl;
+    if (vertex == 1) {
+        cout << "vertex es 1, edge: " << g.nodes[vertex].to[0] << endl;
+    }
 
-    if (explored[vertex])
+    if (explored[vertex]) {
+        cout << vertex << " has been explored." << endl;
         return;
+    }
     explored[vertex] = true;
 
     edges = forward ? &g.nodes[vertex].to : &g.nodes[vertex].from;
@@ -107,7 +113,7 @@ void dfs(
 
 }
 
-vector<size_t> get_topological_order(Graph g, bool forward=false) {
+vector<size_t> get_topological_order(Graph &g, bool forward=false) {
     vector<bool> explored(g.n, false);
     stack<size_t> order;
     vector<size_t> result;
@@ -120,12 +126,12 @@ vector<size_t> get_topological_order(Graph g, bool forward=false) {
     while (!order.empty()) {
         result.push_back(order.top());
         order.pop();
-    }    
+    }
     
     return result;
 }
 
-vector<size_t> get_scc(Graph g) {
+vector<size_t> get_scc(Graph &g) {
     vector<bool> explored(g.n, false);
     vector<size_t> order, sccs(g.n);
     stack<size_t> conns;
@@ -161,8 +167,10 @@ bool check_2sat(vector<Clause> clauses, size_t N) {
     scc = get_scc(g);
 
     for (size_t i = 0; i < N; i++) {
-        if (scc[i] == scc[i+N])
+        if (scc[i] == scc[i+N]) {
+            cout << "Both " << i << " and " << (i+N) << " belong to the same scc" << endl;
             return false;
+        }
     }
 
     return true;
@@ -172,7 +180,7 @@ bool check_2sat(vector<Clause> clauses, size_t N) {
 int main(int argc, char** argv) {
 
     vector<Clause> clauses;
-    // Graph g;
+    Graph g;
     size_t N;
     vector<size_t> order;
 
@@ -182,8 +190,8 @@ int main(int argc, char** argv) {
     };
 
     clauses = read_file(argv[1], N);
-    // g = clauses2graph(clauses, N);
-    cout << "It is: " << endl << check_2sat(clauses, N) << "!!!!" << endl;
+    g = clauses2graph(clauses, N);
+    // cout << "It is: " << endl << check_2sat(clauses, N) << "!!!!" << endl;
     // for (size_t i = 0; i < g.n; i++) {
     //     cout << "Node " << i << " has edges to: [";
     //     for (auto j = g.nodes[i].to.begin(); j < g.nodes[i].to.end(); j++) {
@@ -192,11 +200,12 @@ int main(int argc, char** argv) {
     // cout << "\b\b]" << endl;
     // }
     
-    // order = get_scc(g);
-    // for (size_t i = 0; i < g.n; i++) {
-    //     cout << order[i] << ", ";
-    // }
-    // cout << "\b" << endl;
+    order = get_topological_order(g, true);
+    order = get_scc(g);
+    for (size_t i = 0; i < order.size(); i++) {
+        cout << order[i] << ", ";
+    }
+    cout << "\b" << endl;
 
 
     return 0;
