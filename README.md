@@ -1,6 +1,6 @@
 # Stanford Lagunita
 
-Repository for Stanford lagunita's exercises 
+Repository for Stanford lagunita's exercises
 
 ## Algorithms: Design and Analysis 1
 
@@ -20,3 +20,5 @@ Repository for Stanford lagunita's exercises
 - Clustering via Kruskal's MST algorithm
 - Knapsack problem with Dynamic programming
 - All shortest paths problem with Floyd-Warshall algorithm
+- Travelling Salesman Problem with dynamic programming
+- 2SAT problem via Strongly Connected Components
