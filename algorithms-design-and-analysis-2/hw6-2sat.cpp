@@ -62,7 +62,7 @@ Graph clauses2graph(const vector<Clause> &clauses, size_t N) {
                 g.nodes[clauses[i].first + N - 1].to.push_back(-clauses[i].second + N - 1);
                 g.nodes[-clauses[i].second + N - 1].from.push_back(clauses[i].first + N - 1);
                 g.nodes[-clauses[i].second - 1].to.push_back(clauses[i].first - 1);
-                g.nodes[clauses[i].first - 1].from.push_back(-clauses[i].second + N - 1);
+                g.nodes[clauses[i].first - 1].from.push_back(-clauses[i].second - 1);
             }
         } else {
             if (clauses[i].second > 0) {
@@ -92,15 +92,9 @@ void dfs(
 {
 
     vector<size_t> *edges;
-    cout << vertex << endl;
-    if (vertex == 1) {
-        cout << "vertex es 1, edge: " << g.nodes[vertex].to[0] << endl;
-    }
 
-    if (explored[vertex]) {
-        cout << vertex << " has been explored." << endl;
+    if (explored[vertex])
         return;
-    }
     explored[vertex] = true;
 
     edges = forward ? &g.nodes[vertex].to : &g.nodes[vertex].from;
@@ -138,22 +132,19 @@ vector<size_t> get_scc(Graph &g) {
     size_t scc=0;
 
     cout << "Getting inverse topological order..." << endl;
-    order = get_topological_order(g, false);
+    order = get_topological_order(g, true);
 
     cout << "Getting SCCs..." << endl;
-
     for (auto it = order.begin(); it < order.end(); it++) {
 
         if (!explored[*it])
-            dfs(g, explored, conns, *it, true);
+            dfs(g, explored, conns, *it, false);
 
-        if (!conns.empty()) {
             while (!conns.empty()) {
                 sccs[conns.top()] = scc;
                 conns.pop();
             }
             scc++;
-        }
     }
 
     return sccs;
@@ -190,23 +181,7 @@ int main(int argc, char** argv) {
     };
 
     clauses = read_file(argv[1], N);
-    g = clauses2graph(clauses, N);
-    // cout << "It is: " << endl << check_2sat(clauses, N) << "!!!!" << endl;
-    // for (size_t i = 0; i < g.n; i++) {
-    //     cout << "Node " << i << " has edges to: [";
-    //     for (auto j = g.nodes[i].to.begin(); j < g.nodes[i].to.end(); j++) {
-    //         cout << *j << ", ";
-    //     }
-    // cout << "\b\b]" << endl;
-    // }
-    
-    order = get_topological_order(g, true);
-    order = get_scc(g);
-    for (size_t i = 0; i < order.size(); i++) {
-        cout << order[i] << ", ";
-    }
-    cout << "\b" << endl;
-
+    cout << "It is: " << endl << check_2sat(clauses, N) << "!!!!" << endl;
 
     return 0;
 }
