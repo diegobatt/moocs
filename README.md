@@ -1,8 +1,10 @@
-# Stanford Lagunita
+# Moocs
 
-Repository for Stanford lagunita's exercises
+Repository for massive open online courses (MOOCS) exercises
 
-## Algorithms: Design and Analysis 1
+## Stanford Lagunita
+
+### Algorithms: Design and Analysis 1
 
 - Counting inversions with MergeSort
 - Sorting array with QuickSort
@@ -12,7 +14,7 @@ Repository for Stanford lagunita's exercises
 - Sum2 algorithm with hash tables
 - Online median calculation with Heaps
 
-## Algorithms: Design and Analysis 2
+### Algorithms: Design and Analysis 2
 
 - Task scheduling greedy algorithm
 - Prim's Minimum Spanning Tree (MST) algorithm
