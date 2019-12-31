@@ -3,10 +3,10 @@
 */.vscode
 */*.txt
 */*/storage/
-*.class
-*.cache
 scala-functional-programming/*/project/target/
 scala-functional-programming/*/project/.*
 scala-functional-programming/*/target/
 scala-functional-programming/*/.*
 scala-functional-programming/*/*jar
+*.class
+*.cache
