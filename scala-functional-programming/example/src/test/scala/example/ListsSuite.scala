@@ -25,6 +25,17 @@ import org.scalatest.junit.JUnitRunner
  */
  @RunWith(classOf[JUnitRunner])
   class ListsSuite extends FunSuite {
+ 
+  test("intNotZero throws an exception if its argument is 0") {
+    intercept[IllegalArgumentException] {
+      intNotZero(0)
+    }
+  }
+
+  def intNotZero(x: Int): Int = {
+    if (x == 0) throw new IllegalArgumentException("zero is not allowed")
+    else x
+  }
 
   import Lists._
 
