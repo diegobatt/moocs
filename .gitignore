@@ -3,3 +3,9 @@
 */.vscode
 */*.txt
 */*/storage/
+*.class
+*.cache
+scala-functional-programming/*/project/target/
+scala-functional-programming/*/target/
+scala-functional-programming/*/.*
+scala-functional-programming/*/*jar
