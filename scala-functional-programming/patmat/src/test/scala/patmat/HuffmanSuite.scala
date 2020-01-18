@@ -51,4 +51,34 @@ class HuffmanSuite extends FunSuite {
     }
   }
 
+  test("Test times and Orderedleaf") {
+    new TestTrees {
+      var text = "abbbaaatt"
+      assert(
+        makeOrderedLeafList(times(text.toList))
+        === makeOrderedLeafList(List(('a', 4), ('b', 3), ('t', 2))))
+    }
+  }
+
+  test("decode and encode a long text should be identity") {
+    new TestTrees {
+      var text = "abbaaabbbaaabbbbbbbbaaabbbaabbb"
+      assert(decode(t1, encode(t1)(text.toList)) === text.toList)
+    }
+  }
+
+  test("decode and encode a long text with euickencode") {
+    new TestTrees {
+      var text = "abbaaabbbaaabbbbbbbbaaabbbaabbb"
+      assert(decode(t1, quickEncode(t1)(text.toList)) === text.toList)
+    }
+  }
+
+  test("create code table") {
+    new TestTrees {
+      var text = "abb"
+      var testTree = createCodeTree(text.toList)
+      assert(decode(testTree, encode(testTree)(text.toList)) === text.toList)
+    }
+  }
 }

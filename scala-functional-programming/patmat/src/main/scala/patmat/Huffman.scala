@@ -116,7 +116,9 @@ object Huffman {
    * unchanged.
    */
     def _insert(tree: CodeTree, trees: List[CodeTree]): List[CodeTree] = {
-      if (weight(tree) <= weight(trees.head))
+      if (trees.isEmpty)
+        tree :: Nil
+      else if (weight(tree) <= weight(trees.head))
         tree :: trees
       else
         trees.head :: _insert(tree, trees.tail)
@@ -149,7 +151,12 @@ object Huffman {
       stop: List[CodeTree] => Boolean,
       call: List[CodeTree] => List[CodeTree]
     )(trees: List[CodeTree]): List[CodeTree] = {
-      if (stop(trees)) trees else until(stop, call)(call(trees))
+      if (trees.isEmpty)
+        Nil
+      else if (stop(trees))
+        trees
+      else
+        until(stop, call)(call(trees))
     }
   
   /**
@@ -159,7 +166,7 @@ object Huffman {
    * frequencies from that text and creates a code tree based on them.
    */
     def createCodeTree(chars: List[Char]): CodeTree = {
-      until(singleton, combine)(makeOrderedLeafList(times(chars))).head
+      (until(singleton, combine)(makeOrderedLeafList(times(chars)))).head
     }
   
 
@@ -236,9 +243,9 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-    def codeBits(table: CodeTable)(char: Char): List[Bit] = table match {
-      case (char, bits) :: xs => bits
-      case xs => codeBits(xs.tail)(char)
+    def codeBits(table: CodeTable)(MyChar: Char): List[Bit] = table match {
+      case (MyChar, bits) :: xs => bits
+      case xs => codeBits(xs.tail)(MyChar)
     }
   
   /**
