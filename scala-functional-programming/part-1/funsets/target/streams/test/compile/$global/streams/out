@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/funsets/src/test/scala/funsets/FunSetSuite.scala:123:39: not found: type *[0m
+[0m[[0m[31merror[0m] [0m[0m      val t = map(sfull, (x: Int => x * x))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/funsets/src/test/scala/funsets/FunSetSuite.scala:123:27: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m      val t = map(sfull, (x: Int => x * x))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

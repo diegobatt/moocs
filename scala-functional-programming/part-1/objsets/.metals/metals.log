@@ -1,0 +1,627 @@
+INFO  time: initialize in 1.94s
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/common/package.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetData.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetReader.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetReader.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/test/scala/objsets/TweetSetSuite.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 05, 2020 6:41:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 05, 2020 7:13:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 05, 2020 7:17:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 05, 2020 11:19:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 05, 2020 11:20:50 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 05, 2020 11:20:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 05, 2020 11:20:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 05, 2020 11:20:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:88)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:22)
+
+Jan 05, 2020 11:23:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 05, 2020 11:31:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals
+INFO  time: initialize in 1.68s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 06, 2020 9:42:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 06, 2020 9:42:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:88)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:22)
+
+Jan 06, 2020 9:42:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 06, 2020 9:42:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Jan 06, 2020 9:42:26 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 06, 2020 9:42:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:230)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 06, 2020 10:04:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals
+INFO  time: initialize in 1.33s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.94s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 09, 2020 10:27:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: offset 6947, count -2, length 7372
+java.lang.StringIndexOutOfBoundsException: offset 6947, count -2, length 7372
+	at java.base/java.lang.String.checkBoundsOffCount(String.java:3304)
+	at java.base/java.lang.String.rangeCheck(String.java:280)
+	at java.base/java.lang.String.<init>(String.java:276)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:369)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:368)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 09, 2020 10:28:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 09, 2020 10:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 453
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 09, 2020 10:30:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 09, 2020 10:31:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 09, 2020 10:36:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.56s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 09, 2020 10:48:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 09, 2020 10:48:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals
+INFO  time: initialize in 1.65s
+INFO  skipping build import with status 'Requested'
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+Jan 10, 2020 9:39:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 122
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 10, 2020 9:39:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 10, 2020 9:39:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+Jan 10, 2020 9:42:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:37)
+
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/test/scala/objsets/TweetSetSuite.scala
+Jan 10, 2020 10:00:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 10, 2020 10:00:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+Jan 10, 2020 10:01:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.seenFromType(HoverProvider.scala:106)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:42)
+
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/objsets/src/main/scala/objsets/TweetSet.scala
+INFO  shutting down Metals

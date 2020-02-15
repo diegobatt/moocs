@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/progfun1-recfun_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/recfun/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/common[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun/Main$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/recfun/Main$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/common/package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	common/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/common/package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/recfun[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/recfun/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	recfun/Main$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/recfun/target/scala-2.11/classes/recfun/Main$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

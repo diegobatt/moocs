@@ -1,0 +1,288 @@
+INFO  time: initialize in 1.66s
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/project/plugins.sbt
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/project/buildSettings.sbt
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/project/StudentPlugin.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/project/StyleChecker.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2435)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2428)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2429)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[<error>]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2430)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2431)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2431)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2421, 2421, 2431)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, Int)]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2742, 2742, 2759)
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.0 in workspace '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat'
+INFO  time: initialize in 1.8s
+WARN  resetting database: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/.metals/metals.h2.db
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, Int)]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2986, 2986, 3003)
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[(Char, Int)]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 2986, 2986, 3003)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3806, 3806, 3820)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3824, 3824, 3838)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3824, 3824, 3838)
+Jan 16, 2020 9:47:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Jan 16, 2020 9:47:10 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Jan 16, 2020 9:47:11 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Jan 16, 2020 9:47:12 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Jan 16, 2020 9:47:12 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+Jan 16, 2020 9:47:13 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 16, 2020 9:47:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:137)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:155)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:236)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:25)
+
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3825, 3825, 3839)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3198, 3198, 3212)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 3198, 3198, 3212)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 4977, 4977, 4991)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[Char]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 5340, 5340, 5350)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 5041, 5041, 5055)
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 5041, 5041, 5055)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 5041, 5041, 5055)
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+something's wrong: no file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala in List[patmat.Huffman.CodeTree]RangePosition(file:///home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala, 5023, 5023, 5037)
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  no build target for: /home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals

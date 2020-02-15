@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="diegobatt" name="forcomp.AnagramsSuite" tests="11" errors="0" failures="1" skipped="0" time="0.451">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2020-01-14"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/><property name="user.name" value="diegobatt"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-452559975/jna10407384969874187130.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.6"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/home/diegobatt/.sbt/0.13/java9-rt-ext-ubuntu_11_0_6"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="America/Argentina/Buenos_Aires"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/diegobatt"/><property name="user.language" value="en"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="4.15.0-76-generic"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/libx32:/lib32:/usr/libx32:/usr/lib32:/usr/lib/i386-linux-gnu/sse2:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/home/diegobatt/git-repos/moocs/scala-functional-programming/forcomp"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: abcd" time="0.019">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="wordOccurrences: Robert" time="0.0">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentenceOccurrences: abcd e" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="get: eat" time="0.404">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: married" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="word anagrams: player" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="subtract: lard - r" time="0.002">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: []" time="0.0">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="combinations: abba" time="0.001">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: []" time="0.0">
+                                                 
+                                               </testcase><testcase classname="forcomp.AnagramsSuite" name="sentence anagrams: Linux rulez" time="0.022">
+                                                 <failure message="Set() did not equal Set(List(&quot;Zulu&quot;, &quot;nil&quot;, &quot;Rex&quot;), List(&quot;null&quot;, &quot;Uzi&quot;, &quot;Rex&quot;), List(&quot;Zulu&quot;, &quot;Lin&quot;, &quot;Rex&quot;), List(&quot;Uzi&quot;, &quot;null&quot;, &quot;Rex&quot;), List(&quot;Uzi&quot;, &quot;Rex&quot;, &quot;null&quot;), List(&quot;Rex&quot;, &quot;Uzi&quot;, &quot;null&quot;), List(&quot;Lin&quot;, &quot;Rex&quot;, &quot;Zulu&quot;), List(&quot;nil&quot;, &quot;Rex&quot;, &quot;Zulu&quot;), List(&quot;nil&quot;, &quot;Zulu&quot;, &quot;Rex&quot;), List(&quot;null&quot;, &quot;Rex&quot;, &quot;Uzi&quot;), List(&quot;Rex&quot;, &quot;Zulu&quot;, &quot;Lin&quot;), List(&quot;Rex&quot;, &quot;nil&quot;, &quot;Zulu&quot;), List(&quot;Rex&quot;, &quot;null&quot;, &quot;Uzi&quot;), List(&quot;Zulu&quot;, &quot;Rex&quot;, &quot;Lin&quot;), List(&quot;Zulu&quot;, &quot;Rex&quot;, &quot;nil&quot;), List(&quot;rulez&quot;, &quot;Linux&quot;), List(&quot;Rex&quot;, &quot;Lin&quot;, &quot;Zulu&quot;), List(&quot;Rex&quot;, &quot;Zulu&quot;, &quot;nil&quot;), List(&quot;Lin&quot;, &quot;Zulu&quot;, &quot;Rex&quot;), List(&quot;Linux&quot;, &quot;rulez&quot;))" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: Set() did not equal Set(List(&quot;Zulu&quot;, &quot;nil&quot;, &quot;Rex&quot;), List(&quot;null&quot;, &quot;Uzi&quot;, &quot;Rex&quot;), List(&quot;Zulu&quot;, &quot;Lin&quot;, &quot;Rex&quot;), List(&quot;Uzi&quot;, &quot;null&quot;, &quot;Rex&quot;), List(&quot;Uzi&quot;, &quot;Rex&quot;, &quot;null&quot;), List(&quot;Rex&quot;, &quot;Uzi&quot;, &quot;null&quot;), List(&quot;Lin&quot;, &quot;Rex&quot;, &quot;Zulu&quot;), List(&quot;nil&quot;, &quot;Rex&quot;, &quot;Zulu&quot;), List(&quot;nil&quot;, &quot;Zulu&quot;, &quot;Rex&quot;), List(&quot;null&quot;, &quot;Rex&quot;, &quot;Uzi&quot;), List(&quot;Rex&quot;, &quot;Zulu&quot;, &quot;Lin&quot;), List(&quot;Rex&quot;, &quot;nil&quot;, &quot;Zulu&quot;), List(&quot;Rex&quot;, &quot;null&quot;, &quot;Uzi&quot;), List(&quot;Zulu&quot;, &quot;Rex&quot;, &quot;Lin&quot;), List(&quot;Zulu&quot;, &quot;Rex&quot;, &quot;nil&quot;), List(&quot;rulez&quot;, &quot;Linux&quot;), List(&quot;Rex&quot;, &quot;Lin&quot;, &quot;Zulu&quot;), List(&quot;Rex&quot;, &quot;Zulu&quot;, &quot;nil&quot;), List(&quot;Lin&quot;, &quot;Zulu&quot;, &quot;Rex&quot;), List(&quot;Linux&quot;, &quot;rulez&quot;))
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1560)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:501)
+	at forcomp.AnagramsSuite$$anonfun$13.apply(AnagramsSuite.scala:102)
+	at forcomp.AnagramsSuite$$anonfun$13.apply(AnagramsSuite.scala:77)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:183)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite$class.run(Suite.scala:1147)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:106)
+	at sbt.TestRunner.run(TestFramework.scala:117)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:262)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:233)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFunction.apply(TestFramework.scala:271)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:281)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:66)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:263)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:272)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:263)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/test/scala/patmat/HuffmanSuite.scala:57:20: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Char][0m
+[0m[[0m[31merror[0m] [0m[0m      assert(times(text) === List(('a', 4), ('b', 3), ('t', 2)))[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
