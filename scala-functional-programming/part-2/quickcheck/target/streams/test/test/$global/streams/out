@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckSuite, org.scalatest.tools.Framework$$anon$1@469c8271, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-5, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-2, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-7, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-6, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-0, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-1, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-3, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(quickcheck.QuickCheckBinomialHeap-4, org.scalacheck.ScalaCheckFramework$$anon$3@2d784a40, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaCheck[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 8, Failed 0, Errors 0, Passed 8[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 297 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 14, Failed 0, Errors 0, Passed 14[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	quickcheck.QuickCheckBinomialHeap[0m
+[0m[[0m[0mdebug[0m] [0m[0m	quickcheck.QuickCheckSuite[0m
