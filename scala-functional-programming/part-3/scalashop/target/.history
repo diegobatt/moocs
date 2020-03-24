@@ -11,3 +11,4 @@ test
 runMain scalashop.ScalaShop
 submissionPackage
 packageSubmission
+runMain scalashop.ScalaShop
