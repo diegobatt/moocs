@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mReductionsSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- lineOfSight should correctly handle an array of size 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- upsweepSequential should correctly handle the chunk 1 until 4 of an array of 4 elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- downsweepSequential should correctly handle a 4 element array when the starting angle is zero[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange should return 0 for money < 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange should return 1 when money == 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange should return 0 for money > 0 and coins = List()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange should work when there is only one coin[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- countChange should work for multi-coins[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance should work for empty string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance should work for string of length 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- balance should work for string of length 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- parallel balance should work for string of length 2[0m[0m

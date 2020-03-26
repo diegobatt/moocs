@@ -1,0 +1,27 @@
+runMain reductions.ParallelCountChangeRunner
+test
+repl
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+runMain reductions.ParallelParenthesesBalancingRunner
+test
+reductions.LineOfSightRunner
+runMain reductions.LineOfSightRunner
+submissionPackage
+packageSubmission
+test
+runMain reductions.LineOfSightRunner
+test
+runMain reductions.LineOfSightRunner
+packageSubmission
+runMain reductions.LineOfSightRunner
+packageSubmission
+test
+packageSubmission
+test
+packageSubmission
+test
+packageSubmission
