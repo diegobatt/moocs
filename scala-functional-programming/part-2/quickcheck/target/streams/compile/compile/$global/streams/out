@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/part-2/quickcheck/src/main/scala/quickcheck/QuickCheck.scala:85:58: not found: type int[0m
-[0m[[0m[31merror[0m] [0m[0m  property("min after dleete and insert") = forAll { (a: int) =>[0m
-[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

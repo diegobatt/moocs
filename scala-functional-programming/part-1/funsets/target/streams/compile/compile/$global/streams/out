@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/funsets/src/main/scala/funsets/FunSets.scala:70:65: value unary_! is not a member of Int => Boolean[0m
-[0m[[0m[31merror[0m] [0m[0m    def exists(s: Set, p: Int => Boolean): Boolean = !forall(s, !p)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

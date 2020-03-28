@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/part-2/streams/src/main/scala/streams/Solver.scala:84:41: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.immutable.Stream[Serializable with Equals][0m
-[0m[[0m[31merror[0m] [0m[0m required: Stream[(Solver.this.Block, List[Solver.this.Move], Set[Solver.this.Block])][0m
-[0m[[0m[31merror[0m] [0m[0m        newHeadNeighbors ++ _bfs(q.tail ++ Stream(extraQ))[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

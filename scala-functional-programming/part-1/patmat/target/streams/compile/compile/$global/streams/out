@@ -1,5 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/diegobatt/git-repos/moocs/scala-functional-programming/patmat/src/main/scala/patmat/Huffman.scala:177:73: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (Fork(_, _, _, _), List(_)), (_, List(0)), (_, List(1)), (_, List(??)), (_, List(_)), (_, Nil)[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def decodeFirst(tree: CodeTree, bits: List[Bit]): (Char, List[Bit]) = (tree, bits) match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                                        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,9 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /home/diegobatt/git-repos/moocs/scala-functional-programming/forcomp/target/scala-2.11/progfun1-forcomp_2.11-0.1.0-SNAPSHOT-sources.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	forcomp/Anagrams.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/forcomp/src/main/scala/forcomp/Anagrams.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	forcomp/package.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/forcomp/src/main/scala/forcomp/package.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	common/package.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/diegobatt/git-repos/moocs/scala-functional-programming/forcomp/src/main/scala/common/package.scala[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
