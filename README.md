@@ -27,7 +27,20 @@ Stanford's course on algorithms. Exercises in **C++**:
 - Travelling Salesman Problem with dynamic programming
 - 2SAT problem via Strongly Connected Components
 
-## Functional programming in Scala specialization
+## Reinforcement Learning Explained
+
+Microsoft's course on Reinforcement Learning. Excercises are Jupyter notebooks
+
+- Reinforcement Learning Problem
+- Markov Decision Process
+- Bandits
+- Dynamic Programming
+- Temporal Difference Learning
+- Approximate Solution Methods
+- Policy Gradient and Actor Critic
+- RL that Works
+
+## Functional Programming in Scala Specialization
 
 EPFL's specialization course on Functional programming in **Scala**.
 
@@ -51,7 +64,7 @@ The course is structured into 4 weeks of about one to two-hour lectures:
 - Functions and State
 - Timely Effects
 
-### Parallel programming
+### Parallel Programming
 
 The course is structured into 4 weeks of about one to two-hour lectures:
 
