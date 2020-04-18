@@ -17,3 +17,5 @@ scala-functional-programming/*/*/*.lib/
 *.class
 *.cache
 .*
+
+convex-optimization/cvx
