@@ -24,7 +24,7 @@ combs = it.product(perturbs, perturbs, [0])
 results = {}
 
 for perturb in combs:
-    b = (u + np.array(perturb))
+    b = u + np.array(perturb)
     guess = optimal - (duals.T @ perturb)[0]
     solution = cp.Problem(obj, [A @ x <= b.T]).solve()
     results[(perturb[0], perturb[1])] = (solution, guess, solution - guess)
