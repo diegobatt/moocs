@@ -39,5 +39,6 @@ print(f"The larger p_loss es given by: {problem.value}")
 # Plot the results
 R1, R2 = np.meshgrid(risks, risks)
 plt.figure(figsize=(12, 7))
-plt.contour(R1, R2, joint.value, levels=100, cmap="viridis")
+plt.contour(R1, R2, np.clip(joint.value, 0, None) , levels=25, cmap="viridis")
+plt.colorbar()
 plt.show()
