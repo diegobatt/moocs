@@ -3,7 +3,7 @@ import numpy as np
 from solver import GradientDescent, NewtonRaphson
 
 n = 500
-m = 200
+m = 500
 A = np.random.normal(2, 1, size=(m, n))
 x0 = np.zeros(n)
 

@@ -43,7 +43,7 @@ class Solver(abc.ABC):
             print("Solver did not converge.")
 
         if plot:
-            plt.figure(figsize=(15, 8))
+            plt.figure()
             plt.plot(fs)
             plt.xlabel("Iteration")
             plt.ylabel("Objective")
