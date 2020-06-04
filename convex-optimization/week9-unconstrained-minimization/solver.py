@@ -22,28 +22,28 @@ class Solver(abc.ABC):
         plot=False
     ):
         x = x0
-        xs, fs = [x], [self.f(x)]
+        fs = []
         for i in range(max_niter):
-            import ipdb; ipdb.set_trace()
             delta = self.delta(x)
             if self.stop(x, delta, threshold):
                 print(f"Convergence achieved in {i} iterations.")
                 break
-            # Backtracking
-            mu = 1
             f_x = self.f(x)
             grad_x = self.grad(x)
-            while self.f(x + mu * delta) > f_x + mu * alpha * np.sum(grad_x * delta):
+            fs.append(f_x)
+            # Backtracking
+            mu = 1
+            while (
+                self.f(x + mu * delta)
+                > f_x + mu * alpha * np.sum(grad_x * delta)
+            ):
                 mu *= beta
             x = x + mu * delta
-            # xs.append(x)
-            fs.append(self.f(x))
         else:
             print("Solver did not converge.")
 
         if plot:
             plt.figure(figsize=(15, 8))
-            # plt.plot(xs)
             plt.plot(fs)
             plt.xlabel("Iteration")
             plt.ylabel("Objective")
