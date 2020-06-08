@@ -1,9 +1,10 @@
 import numpy as np
+import cvxpy as cp
 
 from solver import GradientDescent, NewtonRaphson
 
-n = 500
-m = 500
+n = 100
+m = 200
 A = np.random.normal(2, 1, size=(m, n))
 x0 = np.zeros(n)
 
@@ -25,7 +26,20 @@ def hessian(x):
 
 
 gd = GradientDescent(f, grad)
-gd.solve(x0, alpha=0.001, plot=True)
+gx_opt, gd_x_opt = gd.solve(x0, alpha=0.001, plot=True)
 nr = NewtonRaphson(f, grad, hessian)
-nr.solve(x0, threshold=0.00001, alpha=0.001, plot=True)
+nr_opt, nr_x_opt = nr.solve(x0, threshold=0.00001, alpha=0.001, plot=True)
+
+# And with cvxpy
+x = cp.Variable(n)
+aux1 = 1 - A @ x
+aux2 = 1 - x**2
+objective = -cp.sum(cp.log(aux1)) - cp.sum(cp.log(aux2))
+cvx_opt = cp.Problem(cp.Minimize(objective)).solve()
+
+print( 
+    f"GD {gx_opt} \n"
+    f"NR {nr_opt} \n"
+    f"cvxpy {cvx_opt} \n"
+)
 
