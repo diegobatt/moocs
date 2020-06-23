@@ -72,3 +72,20 @@ The course is structured into 4 weeks of about one to two-hour lectures:
 - Basic Task Parallel Algorithms
 - Data-Parallelism
 - Data Structures for Parallel Computing
+
+## Convex Optimization
+
+Stanford's course on convex optimization, based on Stephen P. Boyd's book.
+Exercises in **Python**/**Matlab**. Material covered:
+
+- Convex sets
+- Convex functions
+- Convex optimization problems
+- Duality
+- Approximation and fitting
+- Statistical estimation
+- Geometric problems
+- Numerical and linear algebra background
+- Unconstrained minimization
+- Equality constrained minimization
+- Interior-point methods
