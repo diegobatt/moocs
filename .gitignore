@@ -14,6 +14,8 @@ scala-functional-programming/*/*/project/plugins/project/
 scala-functional-programming/*/*/*.history
 scala-functional-programming/*/*/*.cache
 scala-functional-programming/*/*/*.lib/
+scala-functional-programming/*/*/*/*/resources/*
+
 *.class
 *.cache
 .*
