@@ -102,13 +102,6 @@ class WikipediaSuite extends FunSuite with BeforeAndAfterAll {
     assert(res)
   }
 
-  // test("Test main") {
-  //   assert(initializeWikipediaRanking(), " -- did you fill in all the values in WikipediaRanking (conf, sc, wikiRdd)?")
-  //   import WikipediaRanking._
-  //   // println(wikiRdd.count())
-  //   main(Array("asd", "bbb"))
-  // }
-
   test("'makeIndex' creates a simple index with two entries") {
     assert(initializeWikipediaRanking(), " -- did you fill in all the values in WikipediaRanking (conf, sc, wikiRdd)?")
     import WikipediaRanking._

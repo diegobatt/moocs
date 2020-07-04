@@ -104,17 +104,6 @@ object WikipediaRanking {
   def main(args: Array[String]) {
 
     /* Languages ranked according to (1) */
-    // println("asdasasd")
-    // val resource = getClass.getResourceAsStream("/wikipedia/wikipedia.dat")
-    // if (resource == null)
-    //   println("Fallaste")
-    // else 
-    //   println("Ganaste")
-    // val wikiRdd: RDD[WikipediaArticle] = {
-    //   sc
-    //   .parallelize(WikipediaData.lines)
-    //   .map(WikipediaData.parse).persist()
-    // }
     val langsRanked: List[(String, Int)] = timed("Part 1: naive ranking", rankLangs(langs, wikiRdd))
 
     /* An inverted index mapping languages to wikipedia pages on which they appear */
