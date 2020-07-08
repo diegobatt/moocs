@@ -19,8 +19,8 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
         "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
         "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
     override def langSpread = 50000
-    override def kmeansKernels = 45
-    override def kmeansEta: Double = 20.0D
+    override def kmeansKernels = 2//45
+    override def kmeansEta: Double = 0.1//20.0D
     override def kmeansMaxIterations = 120
   }
 
@@ -65,10 +65,10 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
   }
 
   test("Test Kmeans") {
-    val vectors = sc.parallelize(Seq((2*langSpread, 15), (2*langSpread, 30)))
-    val means = 
-    // median is 15 or 30 ? has to return an int
-    assert(Array(("PHP", 1.0D, 2, 30)) === results, " ClustrResults fail")
+    val vectors = sc.parallelize(Seq((1, 10), (3, 10), (101, 10), (103, 10)))
+    val means = Array((5, 5), (120, 5))
+    val newMeans = kmeans(means, vectors, debug=false)
+    assert(Array((2, 10), (102, 10)) === newMeans, " Kmeans fail")
   }
 
   test("Test Results") {
@@ -79,10 +79,3 @@ class StackOverflowSuite extends FunSuite with BeforeAndAfterAll {
   }
 
 }
-// Posting(
-//   postingType: Int,
-//   id: Int,
-//   acceptedAnswer: Option[Int],
-//   parentId: Option[QID],
-//   score: Int,
-//   tags: Option[String])

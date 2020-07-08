@@ -131,6 +131,7 @@ class StackOverflow extends Serializable {
             case (None, s) => false
           }
           .map {case (Some(o), s) => (o * langSpread, s)}
+          .persist()
   }
 
 
@@ -186,14 +187,19 @@ class StackOverflow extends Serializable {
   /** Main kmeans computation */
   @tailrec final def kmeans(means: Array[(Int, Int)], vectors: RDD[(Int, Int)], iter: Int = 1, debug: Boolean = false): Array[(Int, Int)] = {
     // Implement new Means
-    val oldMeans = sc.parallelize((0 to means.size) zip means)
-    val newMeans = vectors.map(p => (findClosest(p, means), p))
+    val MeansMap = vectors.map(p => (findClosest(p, means), p))
                           .groupByKey()
                           .sortByKey()
-                          .rightOuterJoin(oldMeans)
-                          .map{ case (k, (v, w)) => averageVectors(v) }
+                          .mapValues(averageVectors)
                           .collect()
-    println("Before and after ", means.size, newMeans.size)
+                          .map(x => x._1 -> x._2)
+                          .toMap
+    val newMeans = ((0 to means.size) zip means).map {
+      case (k, m) => MeansMap.get(k) match {
+        case None => m
+        case Some(v) => v
+      }
+    }.toArray
 
     // TODO: Fill in the newMeans array
     val distance = euclideanDistance(means, newMeans)
