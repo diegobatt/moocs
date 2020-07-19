@@ -73,6 +73,15 @@ The course is structured into 4 weeks of about one to two-hour lectures:
 - Data-Parallelism
 - Data Structures for Parallel Computing
 
+### Big Data Analysis with Scala and Spark
+
+The course is structured into 4 weeks of about one to two-hour lectures:
+
+- Spark Basics
+- Reduction Operations and Distributed Key-Value Pairs
+- Partitioning and Shuffling
+- Structured Data: SQL, Dataframes and Datasets
+
 ## Convex Optimization
 
 Stanford's course on convex optimization, based on Stephen P. Boyd's book.
